@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var connect = require('connect'),
-  SessionStore = require('../lib/connect-session-store');
+var connect = require('connect')
+  , SessionStore = require('../lib/connect-session-store');
 
 var options = {
   storeType: 'file',
